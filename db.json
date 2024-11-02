@@ -1,0 +1,71 @@
+{
+  "usuarios": [],
+  "productos": [
+    {
+      "id": "0ddc",
+      "producto": {
+        "nombre": "vodka",
+        "medidas": "sadsadsa",
+        "precio": "dsadsa",
+        "imagen": "dsadsa",
+        "color": "dsadsadsa",
+        "material": "dsadsadsa"
+      }
+    },
+    {
+      "id": "a9f7",
+      "producto": {
+        "nombre": "xxxxxxxxxxxxxx",
+        "medidas": "xxxxxxxxxxxxxxxxxxxxx",
+        "precio": "xxxxxxxxxxxxxxxx",
+        "imagen": "xxxxxxxxxxxxxxxxxxxxx",
+        "color": "xxxxxxxxxxxxxxxxxx",
+        "material": "xxxxxxxxxxxxxxxxxx"
+      }
+    },
+    {
+      "id": "94a3",
+      "producto": {
+        "nombre": "qqqqqqqqqqqqq",
+        "medidas": "qqqqqqqqqqqqqq",
+        "precio": "qqqqqqqqqqqqqq",
+        "imagen": "qqqqqqqqqqqqqqqqqqqqq",
+        "color": "qqqqqqqqqqqqqq",
+        "material": "qqqqqqqqqqqqqq"
+      }
+    },
+    {
+      "id": "6716",
+      "producto": {
+        "nombre": "xxxxxxxxxxx",
+        "medidas": "xxxxxxxxxxxx",
+        "precio": "xxxxxxxxxxxx",
+        "imagen": "xxxxxxxxxxxxxxxxxxx",
+        "color": "xxxxxxxxxxxxx",
+        "material": "xxxxxxxxxxxxx"
+      }
+    },
+    {
+      "id": "3ced",
+      "producto": {
+        "nombre": "dsadsads",
+        "medidas": "sadsadsa",
+        "precio": "dsadsadsa",
+        "imagen": "dsadsadsa",
+        "color": "dsadsadsa",
+        "material": "dsadsadsa"
+      }
+    },
+    {
+      "id": "f490",
+      "producto": {
+        "nombre": "saSA",
+        "medidas": "dsadsa",
+        "precio": "dsadsa",
+        "imagen": "dsadsadsa",
+        "color": "dsadsadsa",
+        "material": "dsadsadsa"
+      }
+    }
+  ]
+}

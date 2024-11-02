@@ -1,0 +1,15 @@
+{
+  "name": "proyectofinal-grupon2",
+  "version": "1.0.0",
+  "description": "proyecto final de programacion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "accesorios",
+    "anillos"
+  ],
+  "author": "martin cardozo, matias bazan, maximiliano prieto, lautaro navarro",
+  "license": "ISC"
+}

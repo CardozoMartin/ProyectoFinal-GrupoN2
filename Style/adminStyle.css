@@ -1,0 +1,18 @@
+.swal2-dark {
+    background-color: #2f2f2f;
+    color: #fff;
+  }
+  .swal2-title {
+    color: #cc0b0b;
+  }
+  .swal2-confirm {
+    background-color: #b31313;
+    color: #fff;
+    border: none;
+  }
+
+  .div{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+  }
