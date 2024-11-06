@@ -95,22 +95,24 @@ inputMaterial.addEventListener("blur", validarMaterial);
 inputColor.addEventListener("blur", validarColor); //
 inputPrecio.addEventListener("blur", validarPrecio); //
 inputImagen.addEventListener("blur", validarImagen);
+// metodo para cargar un prodcuto en la base de datos
 const postProductos = async () => {
-  const producto = {
-    nombre: inputNombre.value,
-    medidas: inputMedidas.value,
-    precio: inputPrecio.value,
-    imagen: inputImagen.value,
-    color: inputColor.value,
-    material: inputColor.value,
-  };
+
+  const nombre = inputNombre.value
+  const medidas = inputMedidas.value
+  const precio = inputPrecio.value
+  const imagen = inputImagen.value
+  const color = inputColor.value
+  const material = inputMaterial.value
+
   try {
-    const response = await fetch("http://localhost:3000/productos", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ producto }),
+    const response = await axios.post("http://localhost:3000/productos", {
+      nombre,
+      medidas,
+      precio,
+      imagen,
+      color,
+      material
     });
     if (!response.ok) {
       throw new Error("Error en la solicitud");
@@ -119,15 +121,10 @@ const postProductos = async () => {
     const data = await response.json();
   } catch (error) {
     console.error("Error al enviar el formulario:", error);
-    Swal.fire({
-      title: "Error",
-      text: "Ocurrió un error al enviar el formulario.",
-      icon: "error",
-      confirmButtonText: "Aceptar",
-    });
+
   }
 };
-
+// evento para enviar un prodcuto para cargar en la base de datos
 btnEnviar.addEventListener("click", (event) => {
   event.preventDefault();
 
@@ -146,13 +143,79 @@ btnEnviar.addEventListener("click", (event) => {
     isMedidasValidate &&
     isNameValidate
   ) {
-    postProductos();
     Swal.fire({
-      position: "top-end",
+      title: "Exito!!!",
+      text: "Producto cargado con exito!",
       icon: "success",
-      title: "hola mundo",
-      showConfirmButton: false,
-      timer: 5500,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        postProductos()
+
+      }
     });
   }
 });
+
+// metodo ver los productos en la tabla
+const getProductos = async () => {
+  try {
+    const res = await axios.get("http://localhost:3000/productos")
+    const datos = res.data;
+
+    const tbody = document.getElementById("tbody");
+
+    datos.map((producto) => {
+      tbody.innerHTML += `
+       <tr>
+            <th scope="row">${producto.id}</th>
+            <td>${producto.nombre}</td>
+            <td>${producto.precio}</td>
+            <td>${producto.color}</td>
+            <td>${producto.material}</td>
+            <td><img src=${producto.imagen}></td>
+            <td>
+            <button class="btn btn-warning"><i class="bi bi-pencil-fill"></i></button>
+         <button class="btn btn-danger" onClick="handleDelete('${producto.id}')"><i class="bi bi-trash3"></i></button>
+         <button class="btn btn-info"><i class="bi bi-eye-fill"></i></button>
+            </td>
+            
+          </tr>`
+    })
+
+    console.log(datos);
+  } catch (error) {
+
+  }
+}
+
+const handleDelete = async (id) => {
+  try {
+    const result = await Swal.fire({
+      title: "Estás seguro?",
+      text: "¡No podrás revertir esto!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "¡Sí, elimínalo!"
+    })
+    if (result.isConfirmed) {
+      const res = await axios.delete("http://localhost:3000/productos/" + id)
+
+      
+    }
+
+  } catch (error) {
+    Swal.fire({
+      title: "Error!",
+      text: "Ocurrio un error",
+      icon: "warning"
+    });
+  }
+
+
+}
+
+getProductos()

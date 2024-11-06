@@ -2,70 +2,58 @@
   "usuarios": [],
   "productos": [
     {
-      "id": "0ddc",
-      "producto": {
-        "nombre": "vodka",
-        "medidas": "sadsadsa",
-        "precio": "dsadsa",
-        "imagen": "dsadsa",
-        "color": "dsadsadsa",
-        "material": "dsadsadsa"
-      }
+      "id": "0aa3",
+      "nombre": "dsadsa",
+      "medidas": "dsadsad",
+      "precio": "dsadsdsa",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AamS-7Dtx7or6nVpgAh4xI2oRIFFDyKlAg&s",
+      "color": "dsadsa",
+      "material": "dsadsadsa"
     },
     {
-      "id": "a9f7",
-      "producto": {
-        "nombre": "xxxxxxxxxxxxxx",
-        "medidas": "xxxxxxxxxxxxxxxxxxxxx",
-        "precio": "xxxxxxxxxxxxxxxx",
-        "imagen": "xxxxxxxxxxxxxxxxxxxxx",
-        "color": "xxxxxxxxxxxxxxxxxx",
-        "material": "xxxxxxxxxxxxxxxxxx"
-      }
+      "id": "5946",
+      "nombre": "dsadsadsa",
+      "medidas": "dsadsadsa",
+      "precio": "adsadsads",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AamS-7Dtx7or6nVpgAh4xI2oRIFFDyKlAg&s",
+      "color": "dsadsads",
+      "material": "dsadsads"
     },
     {
-      "id": "94a3",
-      "producto": {
-        "nombre": "qqqqqqqqqqqqq",
-        "medidas": "qqqqqqqqqqqqqq",
-        "precio": "qqqqqqqqqqqqqq",
-        "imagen": "qqqqqqqqqqqqqqqqqqqqq",
-        "color": "qqqqqqqqqqqqqq",
-        "material": "qqqqqqqqqqqqqq"
-      }
+      "id": "6689",
+      "nombre": "dsadsadsa",
+      "medidas": "dsadsadsa",
+      "precio": "dsadsadsa",
+      "imagen": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMREhUSEhMWFRUXFRUWGRYWFhUdFxUVFxUXFxgZFxYYHigiGhslHRYXIjEhJSorMS4uFx8zODMsNyguLysBCgoKDg0OGxAQGy4lHyUrKy03LS0tLSsvLS0tLS0tLS8uLS0tLS0tLy0tLS0tLS0tNS8tKy0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABAUCAwYHAQj/xABCEAACAQMCAwUECAYAAgsAAAABAgMABBESIQUxQQYTIlFhMkJxgQcUI1JikbHBM3KCodHwY+EVFhckQ3OSssLS8f/EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACoRAAMAAgICAQMDBAMAAAAAAAABAgMREiExQQQTIlEyYYFxsdHxFFLw/9oADAMBAAIRAxEAPwD3ClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApXPdsprg28qWcojuFjEibKe8IbOjDDkwUjbfJG9SOzPF/rMMMh9qSFJGXfwOVUsu+4wW5E7YrP6i5aJ0XNKUrQgUrRfXiQoZJG0qu5O+w89un6VtVgaja3oGVKUqQKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKVhJKqjLEAZxkkDc8hvSOVW5EH/fKgNdzdBCoO5dgoA8yCcnyGFO/pXMpxR7liVkiMMbhWJLDXg4bTGCcjOwJzk9K2canH2pjdizN3ZQDx6ggBEYbqVI9NieWTW3srwC3iQMiKGViD4izKw2IZjyP4VwB0zsakEC64raPHIbvuIjG7DEjaWCI2gsBsT1A5bgVZcIMaEPGq6SgPeDV7DNsRknbYbdMbmuDnZY+9u762M5eRkjiXDRs7b+NuQGPCF3J322rqbK9",
+      "color": "dsadsadsa",
+      "material": "dsadsadsa"
     },
     {
-      "id": "6716",
-      "producto": {
-        "nombre": "xxxxxxxxxxx",
-        "medidas": "xxxxxxxxxxxx",
-        "precio": "xxxxxxxxxxxx",
-        "imagen": "xxxxxxxxxxxxxxxxxxx",
-        "color": "xxxxxxxxxxxxx",
-        "material": "xxxxxxxxxxxxx"
-      }
+      "id": "1b2f",
+      "nombre": "dsadsadsa",
+      "medidas": "dsadsadsa",
+      "precio": "dsadsadsa",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AamS-7Dtx7or6nVpgAh4xI2oRIFFDyKlAg&s",
+      "color": "dsadsad",
+      "material": "dsadsadsa"
     },
     {
-      "id": "3ced",
-      "producto": {
-        "nombre": "dsadsads",
-        "medidas": "sadsadsa",
-        "precio": "dsadsadsa",
-        "imagen": "dsadsadsa",
-        "color": "dsadsadsa",
-        "material": "dsadsadsa"
-      }
+      "id": "52d2",
+      "nombre": "dsadsadsa",
+      "medidas": "dsadsadsa",
+      "precio": "dsadsadsa",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AamS-7Dtx7or6nVpgAh4xI2oRIFFDyKlAg&s",
+      "color": "dsadsadsa",
+      "material": "dsadsadsa"
     },
     {
-      "id": "f490",
-      "producto": {
-        "nombre": "saSA",
-        "medidas": "dsadsa",
-        "precio": "dsadsa",
-        "imagen": "dsadsadsa",
-        "color": "dsadsadsa",
-        "material": "dsadsadsa"
-      }
+      "id": "bfb7",
+      "nombre": "anillo",
+      "medidas": "7.0cm",
+      "precio": "3500",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AamS-7Dtx7or6nVpgAh4xI2oRIFFDyKlAg&s",
+      "color": "plateado",
+      "material": "acero"
     }
   ]
 }

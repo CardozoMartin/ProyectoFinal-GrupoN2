@@ -6,20 +6,30 @@
 
 @import url('https://fonts.cdnfonts.com/css/malibu-2');
 
-*{
-    /*font-family: "Montserrat", sans-serif;*/
-    /*font-family: "Poppins", serif;*/
-    /*font-family: 'Malibu', sans-serif;*/
-    font-optical-sizing: auto;
+
+.iconNav {
+    font-family: 'Malibu', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    transition: font-size 0.3s ease;
+}
+
+.iconNav2 {
+    font-family: 'Malibu', sans-serif;
+    transition: font-size 0.3s ease;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-weight: normal;
+    font-family: "Poppins", serif;
+}
+.nav-link:hover {
+    font-weight: bold;
     
 }
-.p{
-   font-family: "Poppins", serif;
-   font-size: 0.9rem;
 
+.isActive{
+font-weight: bolder;
 }
-
-.bahia{
-    font-family: 'Malibu', sans-serif;
-}
-
