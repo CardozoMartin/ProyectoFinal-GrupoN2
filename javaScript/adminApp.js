@@ -6,21 +6,13 @@ const inputPrecio = document.getElementById("inputPrecio");
 const inputImagen = document.getElementById("inputImagen");
 const form = document.getElementById("form");
 const btnEnviar = document.getElementById("btnEnviar");
-
-
-
-// window.addEventListener("scroll", () => {
-//   const scroll = window.scrollY;
-//   console.log(scroll);
-
-//   if (scroll > 200) {
-//     document.body.style.backgroundColor = "red";
-//   } else {
-//     document.body.style.backgroundColor = ""; // O el color que prefieras
-//   }
-// });
+const agregarProductos = document.getElementById("agregarProductos")
+const mostrarFormulario = document.getElementById("mostrarFormulario")
+const cancelar = document.getElementById("cancelar")
+const editarProducto = document.getElementById("editarProducto")
 
 //validaciones de los campos
+let ID = "";
 
 const validarNombre = () => {
   const value = inputNombre.value;
@@ -95,6 +87,17 @@ inputMaterial.addEventListener("blur", validarMaterial);
 inputColor.addEventListener("blur", validarColor); //
 inputPrecio.addEventListener("blur", validarPrecio); //
 inputImagen.addEventListener("blur", validarImagen);
+
+//boton para mostrar formulario de agregar prodcutos
+agregarProductos.addEventListener("click", () => {
+  mostrarFormulario.classList.remove("d-none")
+  mostrarFormulario.classList.add("d-block")
+})
+//boton para ocultar el fomulario
+cancelar.addEventListener("click", () => {
+  mostrarFormulario.classList.remove("d-block")
+  mostrarFormulario.classList.add("d-none")
+})
 // metodo para cargar un prodcuto en la base de datos
 const postProductos = async () => {
 
@@ -174,10 +177,14 @@ const getProductos = async () => {
             <td>${producto.precio}</td>
             <td>${producto.color}</td>
             <td>${producto.material}</td>
-            <td><img src=${producto.imagen}></td>
+            <td><img src=${producto.imagen} class="img-table"></td>
             <td>
-            <button class="btn btn-warning"><i class="bi bi-pencil-fill"></i></button>
-         <button class="btn btn-danger" onClick="handleDelete('${producto.id}')"><i class="bi bi-trash3"></i></button>
+<button 
+              class="btn btn-warning" 
+              onClick="handleEdit('${producto.id}', '${producto.nombre}', '${producto.medidas}', '${producto.precio}', '${producto.imagen}', '${producto.color}', '${producto.material}')"
+            >
+              <i class="bi bi-pencil-fill"></i>
+            </button>         <button class="btn btn-danger" onClick="handleDelete('${producto.id}')"><i class="bi bi-trash3"></i></button>
          <button class="btn btn-info"><i class="bi bi-eye-fill"></i></button>
             </td>
             
@@ -191,6 +198,7 @@ const getProductos = async () => {
 }
 
 const handleDelete = async (id) => {
+  
   try {
     const result = await Swal.fire({
       title: "Estás seguro?",
@@ -204,7 +212,7 @@ const handleDelete = async (id) => {
     if (result.isConfirmed) {
       const res = await axios.delete("http://localhost:3000/productos/" + id)
 
-      
+
     }
 
   } catch (error) {
@@ -218,4 +226,69 @@ const handleDelete = async (id) => {
 
 }
 
+
+
+
+let idProductoEditar = null; // Almacenar el id del producto a editar
+
+const handleEdit = async(id, nombre, medidas, precio, imagen, color, material) => {
+  idProductoEditar = id;  // Almacenar el id del producto a editar
+
+  // Rellenar los campos del formulario con los valores del producto
+  inputNombre.value = nombre;
+  inputImagen.value = imagen;
+  inputColor.value = color;
+  inputMedidas.value = medidas;
+  inputPrecio.value = precio;
+  inputMaterial.value = material;
+
+  // Mostrar el formulario
+  mostrarFormulario.classList.add("d-block");
+  mostrarFormulario.classList.remove("d-none");
+};
+
+// Función para actualizar un producto
+const putProductos = async() => {
+  if (!idProductoEditar) {
+    alert("No hay producto seleccionado para editar");
+    return;
+  }
+
+  const nombre = inputNombre.value;
+  const color = inputColor.value;
+  const medidas = inputMedidas.value;
+  const precio = inputPrecio.value;
+  const material = inputMaterial.value;
+  const imagen = inputImagen.value;
+
+  try {
+    // Enviar la solicitud PUT para actualizar el producto
+    const response = await axios.put("http://localhost:3000/productos/" + idProductoEditar, {
+      nombre,
+      medidas,
+      precio,
+      imagen,
+      color,
+      material
+    });
+
+    if (response.status === 200) {
+      Swal.fire("Éxito", "Producto actualizado correctamente", "success");
+      // Limpiar el formulario después de editar
+      
+      // Ocultar el formulario de edición
+      mostrarFormulario.classList.add("d-none");
+      mostrarFormulario.classList.remove("d-block");
+      getProductos(); // Recargar los productos para reflejar los cambios
+    }
+  } catch (error) {
+    console.error("Error al editar el producto", error);
+    Swal.fire("Error", "No se pudo actualizar el producto", "error");
+  }
+};
+
+// Lógica para el botón "Editar Producto"
+editarProducto.addEventListener("click", putProductos);
+
 getProductos()
+

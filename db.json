@@ -2,58 +2,103 @@
   "usuarios": [],
   "productos": [
     {
-      "id": "0aa3",
-      "nombre": "dsadsa",
-      "medidas": "dsadsad",
-      "precio": "dsadsdsa",
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AamS-7Dtx7or6nVpgAh4xI2oRIFFDyKlAg&s",
-      "color": "dsadsa",
-      "material": "dsadsadsa"
+      "nombre": "Cadena Mariposa Negra",
+      "medidas": "50 cm",
+      "precio": "6000",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqEFWJyp06TH4Lo25Oot1IZasS5aXOeFhfb74yJ2_23ZX8QePQlFY02Gvn6b_JhQNtjoXpkwxCSZItA9B5KV-aLmPsD1_iWTMynu1pGs5YxcuVYAjwVEDPVJLrITG1I1ortHBn18cThPcYNRFPK78kvfcDdgk-znlgUkFLgY4UF7zmdB427Rr6j2VkMFr6/s320/IMG_20240911_101954522.jpg",
+      "color": "Negro",
+      "material": "Negross",
+      "id": "8533"
     },
     {
-      "id": "5946",
-      "nombre": "dsadsadsa",
-      "medidas": "dsadsadsa",
-      "precio": "adsadsads",
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AamS-7Dtx7or6nVpgAh4xI2oRIFFDyKlAg&s",
-      "color": "dsadsads",
-      "material": "dsadsads"
+      "id": "69b3",
+      "nombre": "Chunky Torzado",
+      "medidas": "2.5 cm ",
+      "precio": "5000",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1GLDkdg9HaH5oJm4mJI9-T1-_UhrrLWJFp-crDH4kDYoPyOfUpnjwdYyAA-Gp6aAfALDlIALlGAAmNRuls2ZBHl8gFZ9OCHlafxLKjGnVN9GpqWc0wJQ4a5yBweYXo8n11L_S7c1kfxxhsljFk7MtUUvmUx2VpxuSyUMVENqf4Ktx9J3uq3Lk7Q7WXv1I/s320/IMG_20240911_103209396.jpg",
+      "color": "Blanco",
+      "material": "Blanco"
     },
     {
-      "id": "6689",
-      "nombre": "dsadsadsa",
-      "medidas": "dsadsadsa",
-      "precio": "dsadsadsa",
-      "imagen": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMREhUSEhMWFRUXFRUWGRYWFhUdFxUVFxUXFxgZFxYYHigiGhslHRYXIjEhJSorMS4uFx8zODMsNyguLysBCgoKDg0OGxAQGy4lHyUrKy03LS0tLSsvLS0tLS0tLS8uLS0tLS0tLy0tLS0tLS0tNS8tKy0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABAUCAwYHAQj/xABCEAACAQMCAwUECAYAAgsAAAABAgMABBESIQUxQQYTIlFhMkJxgQcUI1JikbHBM3KCodHwY+EVFhckQ3OSssLS8f/EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACoRAAMAAgICAQMDBAMAAAAAAAABAgMREiExQQQTIlEyYYFxsdHxFFLw/9oADAMBAAIRAxEAPwD3ClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApXPdsprg28qWcojuFjEibKe8IbOjDDkwUjbfJG9SOzPF/rMMMh9qSFJGXfwOVUsu+4wW5E7YrP6i5aJ0XNKUrQgUrRfXiQoZJG0qu5O+w89un6VtVgaja3oGVKUqQKUpQClKUApSlAKUpQClKUApSlAKUpQClKUApSlAKVhJKqjLEAZxkkDc8hvSOVW5EH/fKgNdzdBCoO5dgoA8yCcnyGFO/pXMpxR7liVkiMMbhWJLDXg4bTGCcjOwJzk9K2canH2pjdizN3ZQDx6ggBEYbqVI9NieWTW3srwC3iQMiKGViD4izKw2IZjyP4VwB0zsakEC64raPHIbvuIjG7DEjaWCI2gsBsT1A5bgVZcIMaEPGq6SgPeDV7DNsRknbYbdMbmuDnZY+9u762M5eRkjiXDRs7b+NuQGPCF3J322rqbK9",
-      "color": "dsadsadsa",
-      "material": "dsadsadsa"
+      "id": "e1fa",
+      "nombre": "Aros Corazon Strass",
+      "medidas": "1.5cm",
+      "precio": "3000",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR3N4MFerkK0Ws2F_vt4C5jO0BfKI5mXQmhChrHjJKElQW4LF6f9VA71O7oTcaMuCkcWuIYTLitPWEf3d4JzH13r6fbQ9rxLUKTlESG1SBcozz5EU8xavwPR6cDnuhbhezMQ_NhQlLa7zVV5kVcDRUziBe8m4-JCcibRd0wHBs1-j9agY_hOPispOvHSox/s320/IMG_20240911_103802470.jpg",
+      "color": "Blanco",
+      "material": "Blanco"
     },
     {
-      "id": "1b2f",
-      "nombre": "dsadsadsa",
-      "medidas": "dsadsadsa",
-      "precio": "dsadsadsa",
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AamS-7Dtx7or6nVpgAh4xI2oRIFFDyKlAg&s",
-      "color": "dsadsad",
-      "material": "dsadsadsa"
+      "id": "8df2",
+      "nombre": "Aros Laurel",
+      "medidas": "1,2 cm",
+      "precio": "4200",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtGlVbNdsm9iqXBNUmehDsTnACk6HOolyKfjD8mtjn5U8WzXbbdyhfQCC6PTBLPoedhODhEt8pmdfLidL7h83Kc3-JKaLZnInND6Re_Jqm36lz0_3v9Dz6VgBXrUHbXr66feJ7tg7IHAqK1R5CLvewa3NRuNu4IyMy6_Khw5oj8-ZJhuzYsgxHKV4G73tn/s320/IMG_20240904_150353988.jpg",
+      "color": "Plateado",
+      "material": "Plateado"
     },
     {
-      "id": "52d2",
-      "nombre": "dsadsadsa",
-      "medidas": "dsadsadsa",
-      "precio": "dsadsadsa",
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AamS-7Dtx7or6nVpgAh4xI2oRIFFDyKlAg&s",
-      "color": "dsadsadsa",
-      "material": "dsadsadsa"
+      "id": "d70c",
+      "nombre": "Aros Canasta Dorados",
+      "medidas": "2 cm",
+      "precio": "7000",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3BX-wknyruCj87aNroDVKVrkeJT1OHipgYSrJ4YhyjtP4sVPKKmda_S9ef497iKj65fJebdge_GJNSeYh2tRO3B68sHOU9PaCNMqeff3WmIviRJA6FYSal6p22g6-iGMowvF-RYgvLJLNR6dZXET-VIy-ndqNukyw7xqK3sZalAcLm7qH5WN84ubpfBj1/s3113/IMG_20240725_102721319.jpg",
+      "color": "Dorado",
+      "material": "Dorado"
     },
     {
-      "id": "bfb7",
-      "nombre": "anillo",
-      "medidas": "7.0cm",
-      "precio": "3500",
-      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_AamS-7Dtx7or6nVpgAh4xI2oRIFFDyKlAg&s",
-      "color": "plateado",
-      "material": "acero"
+      "id": "5caf",
+      "nombre": "Cadena Corazon Rosa",
+      "medidas": "45 cm",
+      "precio": "4500",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu4mT7Zgm3HoYy4nPt49vp9aRK0DxqyD1c1iJ0l159C8ZBzuuk1z8OAyPa6zXRlez1zUULoeqDIKuQzlYZI_x5Oz5N8TYH3ZG4jx64uEDnb2QJ4kuMXAKFMWC2zbh3slC6eH3Y-Bcg8KOl5zq-2k9cae-m029GK7dIyxFnxOKWTvrBSbhGxrTQJtreMM4J/s320/IMG_20240629_003108_696.webp",
+      "color": "Rosa",
+      "material": "Rosa"
+    },
+    {
+      "id": "3e87",
+      "nombre": "Aros Gota",
+      "medidas": "2 cm",
+      "precio": "5500",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFh_FRIp5JLrK_DBD_KzMRK5bB2rmwLwQv45l_-wBKZcNOsggvJjhhtUynaWf2PpFCDuBQ302HXwssehLhEKtfaKBl_BYcAwxdJFqq8uh4enUGXz9nJpTREyl-AuzJgrTWX4-aElaHNiUdvrIMVAYfo9PabnqmVYksJrweupeCZm_1vQbz0m7yl144ZH4K/s3577/IMG_20240725_094903424.jpg",
+      "color": "Blanco",
+      "material": "Blanco"
+    },
+    {
+      "id": "e3f9",
+      "nombre": "Abridores Perlitas",
+      "medidas": "1.2 cm",
+      "precio": "2500",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB_qqlYfDZjeDWILo2Wskfcg2TgPqzRUettGI0PekA5H0i3EfVtzUria7ntwiIj51K1uwzn8gS07kB5b2PK5-g82wCCrW_XHJRMkGrsR7eSz7ZvcITQ_LC8oDv85LRHLS1YYHbZJrRj8fp89Iv93oBW5kR2VDV-Tbo2lnaWmLoWIkIegSL1XiEdbhcvfBw/s320/IMG_20240904_145102604.jpg",
+      "color": "Blanco",
+      "material": "Blanco"
+    },
+    {
+      "id": "ad91",
+      "nombre": "Aros Mariposa Dorada",
+      "medidas": "1.5cm",
+      "precio": "5500",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilLUo7AbHxsytKGLnfcBYQW1KlzvvJfLb3vUPACso84PCTOuLRPTu5UDatxmEQg0mLfsLSm8fUQ1tMi9pr2d8k8hXCZUjM4Wp0bp1g8UR2vlq9uB2kf_B8uJz3LsFLHu-hfvrqXEKJK6IVYKpu-4ZQN-jk_Y4FwVfJ41JWOTh0UjTu18oqZRJrmz1Aj2Yd/s320/IMG_20240725_103800342.jpg",
+      "color": "Dorado",
+      "material": "Dorado"
+    },
+    {
+      "id": "fe2b",
+      "nombre": "Aros Ositos con Strass",
+      "medidas": "1.5cm",
+      "precio": "4500",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG-RGCsz0nUbSqiAQ0gWXZKF5OSGWK-eMcs7mNmBnGItLVdOSBz4gSmmBRAkJ6gp5gqnHEmEbHkir9AasC1FoPEIgmLqZ8ukkiXVjI9LcnAByqoCz_xPeFKGH72VCZW09D2L4fRWs2XQVAJ4gVN4B4aKfOVR1ghMGu0bu6wD7o3t0rUm3UcHFq10EEbvDl/s320/IMG_20240725_101543751.jpg",
+      "color": "Plateado",
+      "material": "Plateado"
+    },
+    {
+      "id": "219c",
+      "nombre": "Aros Colibri ",
+      "medidas": "1.5cm",
+      "precio": "6700",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeaaR6i0b8JXkjTY45jBAVTvMaanyiTaPlJi5nJ6-JZJ5tJfzunvoNooaKSftOxKwLo5en8bXBKl34xt0DzyJrAK8oJDfSUaqEPi-kw3-qBILLn8EKrommV_1hjTR6pQd5cpB6z60-778lrp5OfvtVHNkhIabsyudnIqGNvah-nYhqmRiIYNn9RxM8Gi8y/s320/IMG_20240725_101720626.jpg",
+      "color": "Morado",
+      "material": "Morado"
     }
   ]
 }
