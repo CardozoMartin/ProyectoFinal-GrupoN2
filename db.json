@@ -1,5 +1,19 @@
 {
-  "usuarios": [],
+  "usuarios": [
+    {
+      "email": "martin@gmail.com",
+      "contrasena": "123456",
+      "id": "e8cc"
+    },
+    {
+      "id": "b6cd",
+      "nombreapellido": "martin cardozo",
+      "email": "tiin.-@hotmail.es",
+      "telefono": "3816202020",
+      "contraseña": "1559083480",
+      "confirmarcontraseña": "1559083480"
+    }
+  ],
   "productos": [
     {
       "nombre": "Cadena Mariposa Negra",
