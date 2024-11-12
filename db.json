@@ -114,5 +114,66 @@
       "color": "Morado",
       "material": "Morado"
     }
+  ],
+  "ventas": [
+    {
+      "id": "86d7",
+      "carritoDeCompras": [
+        {
+          "IDproducto": "8533",
+          "nombreProducto": "Cadena Mariposa Negra",
+          "colorProducto": "Negro",
+          "imagenProducto": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqEFWJyp06TH4Lo25Oot1IZasS5aXOeFhfb74yJ2_23ZX8QePQlFY02Gvn6b_JhQNtjoXpkwxCSZItA9B5KV-aLmPsD1_iWTMynu1pGs5YxcuVYAjwVEDPVJLrITG1I1ortHBn18cThPcYNRFPK78kvfcDdgk-znlgUkFLgY4UF7zmdB427Rr6j2VkMFr6/s320/IMG_20240911_101954522.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ebfa",
+      "carritoDeCompras": [
+        {
+          "IDproducto": "8533",
+          "nombreProducto": "Cadena Mariposa Negra",
+          "colorProducto": "Negro",
+          "imagenProducto": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqEFWJyp06TH4Lo25Oot1IZasS5aXOeFhfb74yJ2_23ZX8QePQlFY02Gvn6b_JhQNtjoXpkwxCSZItA9B5KV-aLmPsD1_iWTMynu1pGs5YxcuVYAjwVEDPVJLrITG1I1ortHBn18cThPcYNRFPK78kvfcDdgk-znlgUkFLgY4UF7zmdB427Rr6j2VkMFr6/s320/IMG_20240911_101954522.jpg",
+          "cantidadProdcuto": 1
+        }
+      ]
+    },
+    {
+      "id": "9b5a",
+      "carritoDeCompras": [
+        {
+          "IDproducto": "8533",
+          "nombreProducto": "Cadena Mariposa Negra",
+          "colorProducto": "Negro",
+          "imagenProducto": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqEFWJyp06TH4Lo25Oot1IZasS5aXOeFhfb74yJ2_23ZX8QePQlFY02Gvn6b_JhQNtjoXpkwxCSZItA9B5KV-aLmPsD1_iWTMynu1pGs5YxcuVYAjwVEDPVJLrITG1I1ortHBn18cThPcYNRFPK78kvfcDdgk-znlgUkFLgY4UF7zmdB427Rr6j2VkMFr6/s320/IMG_20240911_101954522.jpg",
+          "cantidadProdcuto": 1
+        }
+      ]
+    },
+    {
+      "id": "2732",
+      "carritoDeCompras": [
+        {
+          "IDproducto": "8533",
+          "nombreProducto": "Cadena Mariposa Negra",
+          "colorProducto": "Negro",
+          "imagenProducto": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqEFWJyp06TH4Lo25Oot1IZasS5aXOeFhfb74yJ2_23ZX8QePQlFY02Gvn6b_JhQNtjoXpkwxCSZItA9B5KV-aLmPsD1_iWTMynu1pGs5YxcuVYAjwVEDPVJLrITG1I1ortHBn18cThPcYNRFPK78kvfcDdgk-znlgUkFLgY4UF7zmdB427Rr6j2VkMFr6/s320/IMG_20240911_101954522.jpg",
+          "cantidadProdcuto": 1
+        }
+      ]
+    },
+    {
+      "id": "fa9d",
+      "carritoDeCompras": [
+        {
+          "IDproducto": "8533",
+          "nombreProducto": "Cadena Mariposa Negra",
+          "colorProducto": "Negro",
+          "imagenProducto": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqEFWJyp06TH4Lo25Oot1IZasS5aXOeFhfb74yJ2_23ZX8QePQlFY02Gvn6b_JhQNtjoXpkwxCSZItA9B5KV-aLmPsD1_iWTMynu1pGs5YxcuVYAjwVEDPVJLrITG1I1ortHBn18cThPcYNRFPK78kvfcDdgk-znlgUkFLgY4UF7zmdB427Rr6j2VkMFr6/s320/IMG_20240911_101954522.jpg",
+          "cantidadProdcuto": 3
+        }
+      ]
+    }
   ]
 }

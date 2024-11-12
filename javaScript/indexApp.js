@@ -2,41 +2,7 @@ const showCards = document.getElementById("showCards");
 const buscador = document.getElementById("buscador");
 
 // Función para buscar productos
-buscador.addEventListener("input", async () => {
-  const buscarNombre = buscador.value.toLowerCase();
 
-  try {
-    const res = await axios.get("http://localhost:3000/productos");
-    const datos = res.data;
-
-    const resultadoDeBusqueda = datos.filter((item) => 
-      item.nombre.toLowerCase().includes(buscarNombre)
-    );
-
-    // Limpiar el contenido previo
-    showCards.innerHTML = "";
-
-    // Mostrar los resultados de la búsqueda
-    resultadoDeBusqueda.forEach((producto) => {
-      showCards.innerHTML += `
-        <div class="card ms-3 mt-3 shadow" style="width: 18rem;">
-          <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
-          <div class="card-body">
-            <h4 class="fw-bolder bahia">Bahia</h4>
-            <h5 class="card-title fw-bolder">${producto.nombre}</h5>
-            <p class="card-text lead p">$${producto.precio}</p>
-            <p class="card-text lead p">Medidas: ${producto.medidas}</p>
-            <p class="card-text lead p">Color: ${producto.color}</p>
-            <a href="#" class="btn btn-primary">Ver Detalles</a>
-          </div>
-        </div>
-      `;
-    });
-
-  } catch (error) {
-    console.error("Error al buscar productos:", error);
-  }
-});
 
 // Función para obtener y mostrar todos los productos inicialmente
 const getProductos = async () => {
